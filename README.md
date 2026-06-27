@@ -55,7 +55,7 @@ This project bridges that gap by combining:
 - Mobile Application
 - Cloud Deployment
 
-The ESP32 collects environmental data from a DHT22 sensor and immediately uploads it to ThingSpeak Cloud. Simultaneously, the latest sensor values are sent to a Machine Learning model deployed using Hugging Face Spaces (or a local Flask REST API) to predict the temperature for upcoming hours.
+The ESP32 collects environmental data from a DHT22 sensor and immediately uploads it to ThingSpeak Cloud, we have used ESP32 as the microcontroller device here. Simultaneously, the latest sensor values are sent to a Machine Learning model deployed using Hugging Face Spaces (or a local Flask REST API) to predict the temperature for upcoming hours.
 
 The Android application displays both current and predicted temperatures, giving users real-time insights as well as future forecasts.
 
